@@ -4,6 +4,7 @@ import { BiUserCircle } from "react-icons/bi";
 const Header = ({ size }) => {
   //console.log("hee", size);
   return (
+        <>   
     <nav className="px-3 py-2 navbar navbar-expand-lg navbar-light bg-light">
       <button
         className="navbar-toggler"
@@ -82,6 +83,7 @@ const Header = ({ size }) => {
         </NavLink>
       </div>
     </nav>
+    </>
   );
 };
 

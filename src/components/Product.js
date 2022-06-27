@@ -1,11 +1,14 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import { Data } from "../Data";
+import Example from "./Slidershow";
 
 const Product = ({ handleClick }) => {
   const data = Data;
   return (
     <div>
+      
+      <Example/>
       <section className="pb-10 page-container">
         <h2 className="m-10 text-2xl font-bold text-center text-black">
           Tất Cả Sản Phẩm
